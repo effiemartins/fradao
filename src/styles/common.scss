@@ -1,0 +1,37 @@
+body {
+  min-height: 100vh;
+  font-family: $font-sans;
+
+  @include themed() {
+    color: t($text);
+    background: t($bg);
+  }
+
+  transition: all 1s ease;
+
+  /* Hack */
+  overflow-x: hidden;
+}
+
+.main-container,
+.blog-container,
+.category-container,
+.tags-container {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+}
+
+a,
+button {
+  transition: color 0.1s $easing-bezier-fast;
+}
+
+@include mobile {
+  .__react_component_tooltip {
+    display: none !important;
+  }
+}

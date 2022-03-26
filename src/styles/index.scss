@@ -1,0 +1,21 @@
+//settings
+@import './fonts.scss';
+@import './variables.scss';
+@import './mixins.scss';
+
+//global styles
+@import './themes.scss';
+@import './resets.scss';
+@import './common.scss';
+
+//component's modules
+@import './modules/header.module.scss';
+@import './modules/headline.module.scss';
+@import './modules/cases.module.scss';
+@import './modules/nav.module.scss';
+@import './modules/footer.module.scss';
+@import './modules/blog.post.module.scss';
+@import './modules/about.module.scss';
+@import './modules/breadcrumbs.module.scss';
+@import './modules/tags.module.scss';
+@import './modules/relatedposts.module.scss';

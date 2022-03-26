@@ -1,0 +1,29 @@
+// Theme Variables
+$bg: 'bg';
+$card-bg: 'card-bg';
+$text: 'text';
+$text-secondary: 'text-secondary';
+$link: 'link';
+$hover: 'hover';
+$logo: 'logo';
+$border: 'border';
+
+//Themes
+$themes: (
+  light: (
+    bg: linear-gradient(#ffffff, $color-background-light),
+    text: $color-high-emphasis,
+    text-secondary: $color-medium-emphasis,
+    link: $color-primary,
+    hover: $color-medium-emphasis,
+    border: $color-disabled,
+  ),
+  dark: (
+    bg: linear-gradient($color-background-dark, $color-high-emphasis),
+    text: $color-light-high-emphasis,
+    text-secondary: $color-medium-emphasis,
+    link: $color-light-high-emphasis,
+    hover: $color-medium-emphasis,
+    border: $color-medium-emphasis,
+  ),
+);

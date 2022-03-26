@@ -1,0 +1,44 @@
+.headline {
+  .container {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    p {
+      font-family: $font-serif;
+      font-weight: $font-weight--regular;
+      line-height: 1.25em;
+
+      span {
+        display: block;
+        a {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  @include desktop {
+    .container {
+      justify-content: space-between;
+      margin: 128px 0;
+
+      p {
+        font-size: $font-size--medium;
+        line-height: 1.5em;
+      }
+    }
+  }
+
+  @include mobile {
+    .container {
+      display: block;
+
+      margin: 64px 16px;
+      p {
+        font-size: $font-size--medium;
+        line-height: 1.5em;
+      }
+    }
+  }
+}

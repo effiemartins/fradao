@@ -1,0 +1,76 @@
+.nav {
+  ul {
+    text-align: center;
+    position: relative;
+
+    li {
+      display: inline-block;
+
+      transition: all 0.2s $easing-bezier-fast;
+
+      &:first-child {
+        margin-left: unset;
+      }
+      &:hover {
+        opacity: 0.5;
+      }
+      button svg,
+      a svg {
+        width: auto;
+        transition: all 0.1s $easing-bezier-fast;
+      }
+    }
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  @include desktop {
+    ul {
+      margin-top: 18px;
+
+      li {
+        margin-left: 16px;
+
+        button svg,
+        a svg {
+          height: 24px;
+        }
+      }
+    }
+
+    &.is-sticky {
+      ul {
+        top: -12px;
+        li a svg,
+        li button svg {
+          transform: scale(0.9);
+        }
+      }
+    }
+  }
+
+  @include mobile {
+    ul {
+      margin-bottom: 32px;
+      li {
+        margin-left: 16px;
+        button svg,
+        a svg {
+          height: 24px;
+        }
+      }
+    }
+
+    &.is-sticky {
+      ul {
+        top: -12px;
+        li a svg,
+        li button svg {
+          transform: scale(0.9);
+        }
+      }
+    }
+  }
+}
