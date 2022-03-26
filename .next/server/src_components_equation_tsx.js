@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "src_components_equation_tsx";
+exports.ids = ["src_components_equation_tsx"];
+exports.modules = {
+
+/***/ "./src/components/equation.tsx":
+/*!*************************************!*\
+  !*** ./src/components/equation.tsx ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var katex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! katex */ \"katex\");\n/* harmony import */ var katex__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(katex__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__);\nvar _jsxFileName = \"/Users/studio/Documents/fradao/src/components/equation.tsx\";\n\n\n\nfunction render(expression, displayMode) {\n  let result;\n\n  try {\n    result = (0,katex__WEBPACK_IMPORTED_MODULE_0__.renderToString)(expression, {\n      displayMode: displayMode\n    });\n  } catch (e) {\n    if (e instanceof katex__WEBPACK_IMPORTED_MODULE_0__.ParseError) {\n      result = e.message;\n    }\n\n    if (true) {\n      console.error(e);\n    }\n  }\n\n  return result;\n}\n\nconst Equation = ({\n  children,\n  displayMode = true\n}) => {\n  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)(\"span\", {\n    dangerouslySetInnerHTML: {\n      __html: render(children, displayMode)\n    }\n  }, void 0, false, {\n    fileName: _jsxFileName,\n    lineNumber: 20,\n    columnNumber: 5\n  }, undefined);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Equation);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9lcXVhdGlvbi50c3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQUE7OztBQUVBLFNBQVNFLE1BQVQsQ0FBZ0JDLFVBQWhCLEVBQW9DQyxXQUFwQyxFQUFrRTtBQUNoRSxNQUFJQyxNQUFKOztBQUNBLE1BQUk7QUFDRkEsSUFBQUEsTUFBTSxHQUFHTCxxREFBYyxDQUFDRyxVQUFELEVBQWE7QUFBRUMsTUFBQUEsV0FBVyxFQUFFQTtBQUFmLEtBQWIsQ0FBdkI7QUFDRCxHQUZELENBRUUsT0FBT0UsQ0FBUCxFQUFVO0FBQ1YsUUFBSUEsQ0FBQyxZQUFZTCw2Q0FBakIsRUFBNkI7QUFDM0JJLE1BQUFBLE1BQU0sR0FBR0MsQ0FBQyxDQUFDQyxPQUFYO0FBQ0Q7O0FBQ0QsY0FBMkM7QUFDekNDLE1BQUFBLE9BQU8sQ0FBQ0MsS0FBUixDQUFjSCxDQUFkO0FBQ0Q7QUFDRjs7QUFDRCxTQUFPRCxNQUFQO0FBQ0Q7O0FBRUQsTUFBTUssUUFBUSxHQUFHLENBQUM7QUFBRUMsRUFBQUEsUUFBRjtBQUFZUCxFQUFBQSxXQUFXLEdBQUc7QUFBMUIsQ0FBRCxLQUFzQztBQUNyRCxzQkFDRTtBQUNFLDJCQUF1QixFQUFFO0FBQ3ZCUSxNQUFBQSxNQUFNLEVBQUVWLE1BQU0sQ0FBQ1MsUUFBRCxFQUFXUCxXQUFYO0FBRFM7QUFEM0I7QUFBQTtBQUFBO0FBQUE7QUFBQSxlQURGO0FBT0QsQ0FSRDs7QUFVQSxpRUFBZU0sUUFBZiIsInNvdXJjZXMiOlsid2VicGFjazovL3R1dHVtZW5lemVzLXNpdGUvLi9zcmMvY29tcG9uZW50cy9lcXVhdGlvbi50c3g/ZGYzNCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyByZW5kZXJUb1N0cmluZywgUGFyc2VFcnJvciB9IGZyb20gJ2thdGV4J1xuXG5mdW5jdGlvbiByZW5kZXIoZXhwcmVzc2lvbjogc3RyaW5nLCBkaXNwbGF5TW9kZTogYm9vbGVhbik6IHN0cmluZyB7XG4gIGxldCByZXN1bHQ6IHN0cmluZ1xuICB0cnkge1xuICAgIHJlc3VsdCA9IHJlbmRlclRvU3RyaW5nKGV4cHJlc3Npb24sIHsgZGlzcGxheU1vZGU6IGRpc3BsYXlNb2RlIH0pXG4gIH0gY2F0Y2ggKGUpIHtcbiAgICBpZiAoZSBpbnN0YW5jZW9mIFBhcnNlRXJyb3IpIHtcbiAgICAgIHJlc3VsdCA9IGUubWVzc2FnZVxuICAgIH1cbiAgICBpZiAocHJvY2Vzcy5lbnYuTk9ERV9FTlYgIT09ICdwcm9kdWN0aW9uJykge1xuICAgICAgY29uc29sZS5lcnJvcihlKVxuICAgIH1cbiAgfVxuICByZXR1cm4gcmVzdWx0XG59XG5cbmNvbnN0IEVxdWF0aW9uID0gKHsgY2hpbGRyZW4sIGRpc3BsYXlNb2RlID0gdHJ1ZSB9KSA9PiB7XG4gIHJldHVybiAoXG4gICAgPHNwYW5cbiAgICAgIGRhbmdlcm91c2x5U2V0SW5uZXJIVE1MPXt7XG4gICAgICAgIF9faHRtbDogcmVuZGVyKGNoaWxkcmVuLCBkaXNwbGF5TW9kZSksXG4gICAgICB9fVxuICAgIC8+XG4gIClcbn1cblxuZXhwb3J0IGRlZmF1bHQgRXF1YXRpb25cbiJdLCJuYW1lcyI6WyJyZW5kZXJUb1N0cmluZyIsIlBhcnNlRXJyb3IiLCJyZW5kZXIiLCJleHByZXNzaW9uIiwiZGlzcGxheU1vZGUiLCJyZXN1bHQiLCJlIiwibWVzc2FnZSIsImNvbnNvbGUiLCJlcnJvciIsIkVxdWF0aW9uIiwiY2hpbGRyZW4iLCJfX2h0bWwiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/components/equation.tsx\n");
+
+/***/ })
+
+};
+;
