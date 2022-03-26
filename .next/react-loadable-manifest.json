@@ -4,23 +4,5 @@
     "files": [
       "static/chunks/node_modules_next_dist_client_dev_noop_js.js"
     ]
-  },
-  "../components/dynamic.tsx -> ./code": {
-    "id": "./src/components/code.tsx",
-    "files": [
-      "static/chunks/src_components_code_tsx.js"
-    ]
-  },
-  "../components/dynamic.tsx -> ./counter": {
-    "id": "./src/components/counter.tsx",
-    "files": [
-      "static/chunks/src_components_counter_tsx.js"
-    ]
-  },
-  "../components/dynamic.tsx -> ./equation": {
-    "id": "./src/components/equation.tsx",
-    "files": [
-      "static/chunks/src_components_equation_tsx.js"
-    ]
   }
 }
