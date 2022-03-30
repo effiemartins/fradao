@@ -7,7 +7,7 @@
   flex-direction: row;
   align-items: center;
   flex-wrap: nowrap;
-  max-width: 50rem;
+  max-width: 90vw;
   margin: 0 auto;
 
   h1 {
@@ -16,11 +16,9 @@
     word-wrap: nowrap;
 
     a {
-      font-family: $font-serif;
-      font-weight: $font-weight--bold;
-      display: block;
-      text-align: center;
-      transition: all 0.1s $easing-bezier-fast;
+      .logo {
+        height: 100px;
+      }
     }
   }
 

@@ -1,12 +1,8 @@
-import { FiSend } from 'react-icons/fi'
-import { FiGithub } from 'react-icons/fi'
-import { FiLinkedin } from 'react-icons/fi'
-import { FiTwitter } from 'react-icons/fi'
+import { FiSend } from "react-icons/fi";
+import { FiInstagram } from "react-icons/fi";
 
-const twitter = 'hiimf'
-const github = 'effiemartins'
-const linkedin = 'flora-martins-299631a3'
-const email = 'flora.pmartins@gmail.com'
+const instagram = "fra_dao";
+const email = "fradao@yahoo.com";
 
 export default function Footer() {
   return (
@@ -14,42 +10,19 @@ export default function Footer() {
       <footer className="footer">
         <div className="container">
           <div className="copyright">
-            Copyright © • Made in 2022 using NextJS, TS and Notion!
+            FRADAO, supported by <a href="https://gov.near.org/">NEAR</a>
+            <br />© All rights reserved
           </div>
           <div className="social">
-            {twitter && (
+            {instagram && (
               <a
-                className="twitter"
-                href={`https://twitter.com/${twitter}`}
-                title={`Twitter @${twitter}`}
+                className="instagram"
+                href={`https://www.instagram.com/${instagram}`}
+                title={`Instagram ${instagram}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FiTwitter className="social-icon" />
-              </a>
-            )}
-
-            {github && (
-              <a
-                className="github"
-                href={`https://github.com/${github}`}
-                title={`GitHub @${github}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FiGithub className="social-icon" />
-              </a>
-            )}
-
-            {linkedin && (
-              <a
-                className="linkedin"
-                href={`https://www.linkedin.com/in/${linkedin}`}
-                title={`LinkedIn ${linkedin}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FiLinkedin className="social-icon" />
+                <FiInstagram className="social-icon" />
               </a>
             )}
 
@@ -68,5 +41,5 @@ export default function Footer() {
         </div>
       </footer>
     </>
-  )
+  );
 }
