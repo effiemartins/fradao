@@ -1,9 +1,13 @@
 //fonts imports
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-//importing from adobe typekit
-@import url('https://use.typekit.net/gxg8pgx.css');
+@font-face {
+  font-family: "Bebas";
+  src: url("/public/Bebas-Regular.otf") format("otf"),
+    url("/public/Bebas-Regular.ttf") format("ttf");
+}
 
-$font-halyard-text: halyard-text, sans-serif;
-$font-tenez: tenez, serif;
+$font-bebas-neue: "Bebas Neue", sans-serif;
+$font-bebas: "Bebas", sans-serif;
 
 //define variables in variables.scss and use them in the project. Don't use the variables defined here as font-family
